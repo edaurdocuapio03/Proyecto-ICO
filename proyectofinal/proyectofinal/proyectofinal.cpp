@@ -41,4 +41,10 @@ int main()
             else {
                 dia++;
             }
+        }
+
+    }
+    else if (dia == 4 && mes == 10 && anio == 1582) {
+        dia = 15;
+    }
 }
