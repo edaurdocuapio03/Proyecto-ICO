@@ -28,4 +28,17 @@ int main()
                 mes = 1;
                 anio++;
             }
+            else {
+                dia++;
+            }
+
+        }
+        else {
+            if (dia == 30) {
+                mes++;
+                dia = 1;
+            }
+            else {
+                dia++;
+            }
 }
