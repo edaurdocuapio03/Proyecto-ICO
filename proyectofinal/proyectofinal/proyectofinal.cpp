@@ -52,4 +52,21 @@ int main()
             mes++;
             dia = 1;
         }
+        else if (dia == 31 && mes == 12) {
+            dia = 1;
+            mes = 1;
+            anio++;
+        }
+        else {
+            dia++;
+        }
+    }
+    else {
+        if (dia == 30 || dia == 28) {
+            mes++;
+            dia = 1;
+        }
+        else {
+            dia++;
+        }
 }
