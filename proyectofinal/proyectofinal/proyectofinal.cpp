@@ -47,4 +47,9 @@ int main()
     else if (dia == 4 && mes == 10 && anio == 1582) {
         dia = 15;
     }
+    else if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) {
+        if (dia == 31 && mes != 12) {
+            mes++;
+            dia = 1;
+        }
 }
