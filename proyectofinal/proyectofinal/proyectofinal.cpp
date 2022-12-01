@@ -13,7 +13,7 @@ int main()
             }
             else {
                 mes++;
-                dia = 1;
+                dia = ;
             }
         }
 }
